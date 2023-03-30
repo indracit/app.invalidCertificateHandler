@@ -5,7 +5,7 @@ const multer  = require('multer')
 const upload = multer()
 const errorHandler = require('./middleware/errorHandler')
 const { logEvents,logger} = require('./middleware/logger')
-const {port} = require('./appConfig.json')
+const {port} = require('./config.json')
 
 
 app.use(bodyParser.urlencoded({ extended: false }))

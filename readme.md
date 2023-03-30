@@ -2,7 +2,7 @@
 
 ## Setup
 
-    2. create appConfig.json file with below format inside root folder
+    2. create config.json file with below format inside root folder
                 {
             "port" : "",
             "baseUrl" : "",
